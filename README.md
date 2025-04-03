@@ -62,7 +62,7 @@ Contact
 If you have any questions or suggestions, feel free to reach out to:
 
 Your Name - Pastor SDWJR
-GitHub: [https://github.com/your-username](https://github.com/Samueldwilsonjr)
+GitHub: https://github.com/Samueldwilsonjr
 Acknowledgments
 
 Thanks to React for providing an amazing front-end framework.
