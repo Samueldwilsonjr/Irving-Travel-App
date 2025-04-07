@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Traditional Balinese Massage",
+    "description": "Experience the ultimate relaxation with a traditional Balinese massage that combines gentle stretches, acupressure, aromatherapy and reflexology to stimulate the flow of blood, oxygen and energy around your body.",
+    "destinationId": 1,
+    "image": "https://images.unsplash.com/photo-1651325269829-9dd855bc53fd",
+    "price": 45,
+    "duration": "90 minutes",
+    "rating": 4.7,
+    "category": "Wellness"
+  },
+  {
+    "id": 2,
+    "name": "Bali Sunrise Trekking",
+    "description": "Embark on a guided trek up Mount Batur in time to witness a spectacular sunrise over the volcanic landscape and Lake Batur below.",
+    "destinationId": 1,
+    "image": "https://images.unsplash.com/photo-1651325238185-7fa24095b290",
+    "price": 65,
+    "duration": "7-8 hours",
+    "rating": 4.8,
+    "category": "Adventure"
+  },
+  {
+    "id": 3,
+    "name": "Santorini Catamaran Sunset Cruise",
+    "description": "Sail around the caldera on a catamaran, stopping at hot springs, snorkeling spots, and enjoying a BBQ dinner on board while watching the famous Santorini sunset.",
+    "destinationId": 2,
+    "image": "https://images.unsplash.com/photo-1618195078882-eb6b2f670082",
+    "price": 110,
+    "duration": "5 hours",
+    "rating": 4.9,
+    "category": "Cruise"
+  },
+  {
+    "id": 4,
+    "name": "Santorini Wine Tasting Tour",
+    "description": "Visit three traditional wineries and sample up to 12 different wine varieties produced from grapes grown in Santorini's volcanic soil, known for its distinctive minerality.",
+    "destinationId": 2,
+    "image": "https://images.unsplash.com/photo-1651325276807-82f5782a4088",
+    "price": 95,
+    "duration": "4 hours",
+    "rating": 4.6,
+    "category": "Food & Drink"
+  },
+  {
+    "id": 5,
+    "name": "Kyoto Tea Ceremony Experience",
+    "description": "Participate in a traditional Japanese tea ceremony in an authentic tea house, learning about the history and cultural significance of this centuries-old practice.",
+    "destinationId": 3,
+    "image": "https://images.unsplash.com/photo-1651325269829-9dd855bc53fd",
+    "price": 55,
+    "duration": "1.5 hours",
+    "rating": 4.7,
+    "category": "Cultural"
+  },
+  {
+    "id": 6,
+    "name": "Arashiyama Bamboo Grove & Monkey Park Tour",
+    "description": "Explore the stunning bamboo forest and visit the Iwatayama Monkey Park where you can observe Japanese macaques in their natural habitat.",
+    "destinationId": 3,
+    "image": "https://images.unsplash.com/photo-1651325238185-7fa24095b290",
+    "price": 75,
+    "duration": "4 hours",
+    "rating": 4.8,
+    "category": "Nature"
+  },
+  {
+    "id": 7,
+    "name": "Paris Museum Pass",
+    "description": "Get priority access to over 50 museums and monuments in Paris, including the Louvre, Orsay Museum, and Arc de Triomphe.",
+    "destinationId": 4,
+    "image": "https://images.unsplash.com/photo-1589191702216-923536264808",
+    "price": 75,
+    "duration": "2, 4, or 6 days",
+    "rating": 4.5,
+    "category": "Cultural"
+  },
+  {
+    "id": 8,
+    "name": "Seine River Dinner Cruise",
+    "description": "Enjoy a gourmet dinner while cruising along the Seine River, taking in the illuminated landmarks of Paris by night.",
+    "destinationId": 4,
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692",
+    "price": 95,
+    "duration": "2.5 hours",
+    "rating": 4.6,
+    "category": "Dining"
+  },
+  {
+    "id": 9,
+    "name": "Cancun Underwater Museum Snorkeling Tour",
+    "description": "Snorkel among hundreds of life-size sculptures at the MUSA underwater museum, an incredible artificial reef teeming with marine life.",
+    "destinationId": 5,
+    "image": "https://images.unsplash.com/photo-1651325276807-82f5782a4088",
+    "price": 70,
+    "duration": "3 hours",
+    "rating": 4.7,
+    "category": "Water Sports"
+  },
+  {
+    "id": 10,
+    "name": "Chichen Itza Day Trip from Cancun",
+    "description": "Visit one of the New Seven Wonders of the World on this guided tour of the ancient Mayan city, including a cenote swim and lunch.",
+    "destinationId": 5,
+    "image": "https://images.unsplash.com/photo-1567589602992-778bb34d417b",
+    "price": 85,
+    "duration": "12 hours",
+    "rating": 4.8,
+    "category": "Historical"
+  },
+  {
+    "id": 11,
+    "name": "Machu Picchu Guided Tour",
+    "description": "Explore the ancient Incan citadel with a knowledgeable guide who will share insights about its history, construction, and astronomical significance.",
+    "destinationId": 6,
+    "image": "https://images.unsplash.com/photo-1554366347-897a5113f6ab",
+    "price": 120,
+    "duration": "2.5 hours",
+    "rating": 4.9,
+    "category": "Historical"
+  },
+  {
+    "id": 12,
+    "name": "Sacred Valley and Machu Picchu 2-Day Tour",
+    "description": "Comprehensive tour of the Sacred Valley's ancient sites, including overnight accommodation and a full guided tour of Machu Picchu.",
+    "destinationId": 6,
+    "image": "https://images.unsplash.com/photo-1523501554165-c565e1629690",
+    "price": 280,
+    "duration": "2 days",
+    "rating": 4.8,
+    "category": "Multi-day Tour"
+  }
+]
