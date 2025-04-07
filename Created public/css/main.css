@@ -1,0 +1,218 @@
+/* Main CSS Styles for TravelEase */
+
+/* Global Styles */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --accent-color: #ffc107;
+    --dark-color: #212529;
+    --light-color: #f8f9fa;
+    --section-padding: 5rem 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--dark-color);
+}
+
+.section-title {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    margin-bottom: 2rem;
+    color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 80vh;
+    min-height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1589191702216-923536264808');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 56px; /* To account for the fixed navbar */
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-content p {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Search Section */
+.search-section {
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+}
+
+.search-section .card {
+    border-radius: 10px;
+}
+
+.search-section .nav-tabs .nav-link {
+    border: none;
+    padding: 15px 20px;
+}
+
+.search-section .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/* Featured Destinations */
+.destination-card {
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.destination-card:hover {
+    transform: translateY(-5px);
+}
+
+.destination-card .card-img-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.destination-rating {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: var(--dark-color);
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.destination-price {
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+/* Feature Cards */
+.feature-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Deal Cards */
+.deal-card {
+    height: 100%;
+}
+
+.deal-card .object-cover {
+    object-fit: cover;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+.new-price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.price-unit {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+/* Newsletter Card */
+.newsletter-card {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+/* Contact Section */
+.contact-info, .contact-form {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .hero-section {
+        height: 60vh;
+    }
+    
+    .search-section {
+        margin-top: -30px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        height: 50vh;
+    }
+    
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+}
