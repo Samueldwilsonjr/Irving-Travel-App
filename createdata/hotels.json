@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Bali Ocean View Resort",
+    "description": "A luxurious beachfront resort offering panoramic views of the Indian Ocean with private villas and world-class amenities.",
+    "destinationId": 1,
+    "location": "Seminyak, Bali",
+    "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461",
+    "price": 250,
+    "rating": 4.8,
+    "features": ["Swimming Pool", "Spa", "Restaurant", "Free WiFi", "Beach Access"],
+    "rooms": [
+      {
+        "id": 101,
+        "type": "Deluxe Ocean View",
+        "price": 250,
+        "capacity": 2,
+        "amenities": ["King Bed", "Balcony", "Air Conditioning", "Mini Bar"]
+      },
+      {
+        "id": 102,
+        "type": "Premium Villa",
+        "price": 450,
+        "capacity": 4,
+        "amenities": ["Private Pool", "Kitchen", "Living Room", "Ocean View"]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Santorini Caldera Suites",
+    "description": "Perched on the cliffs of Santorini, this boutique hotel offers stunning views of the Aegean Sea and the famous caldera.",
+    "destinationId": 2,
+    "location": "Oia, Santorini",
+    "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a",
+    "price": 350,
+    "rating": 4.9,
+    "features": ["Infinity Pool", "Rooftop Restaurant", "Spa Services", "Airport Shuttle", "Sunset Views"],
+    "rooms": [
+      {
+        "id": 201,
+        "type": "Caldera View Suite",
+        "price": 350,
+        "capacity": 2,
+        "amenities": ["Queen Bed", "Private Terrace", "Hot Tub", "Mini Bar"]
+      },
+      {
+        "id": 202,
+        "type": "Honeymoon Suite",
+        "price": 550,
+        "capacity": 2,
+        "amenities": ["King Bed", "Private Pool", "Champagne Service", "Panoramic Views"]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kyoto Traditional Ryokan",
+    "description": "Experience authentic Japanese hospitality in this traditional ryokan with tatami floors, sliding paper doors, and a peaceful garden.",
+    "destinationId": 3,
+    "location": "Gion District, Kyoto",
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+    "price": 280,
+    "rating": 4.7,
+    "features": ["Onsen Bath", "Traditional Garden", "Tea Ceremony", "Kaiseki Dining", "Yukata Provided"],
+    "rooms": [
+      {
+        "id": 301,
+        "type": "Traditional Room",
+        "price": 280,
+        "capacity": 2,
+        "amenities": ["Futon Beds", "Tatami Floors", "Garden View", "Private Bathroom"]
+      },
+      {
+        "id": 302,
+        "type": "Deluxe Ryokan Suite",
+        "price": 480,
+        "capacity": 4,
+        "amenities": ["Private Onsen", "Living Area", "Premium Futons", "Minibar"]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Paris Luxury Hotel",
+    "description": "Classic Parisian elegance in the heart of the city, with views of the Eiffel Tower and luxurious accommodations.",
+    "destinationId": 4,
+    "location": "7th Arrondissement, Paris",
+    "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39",
+    "price": 320,
+    "rating": 4.6,
+    "features": ["Gourmet Restaurant", "Fitness Center", "Concierge Service", "Business Center", "Bar"],
+    "rooms": [
+      {
+        "id": 401,
+        "type": "Eiffel Tower View Room",
+        "price": 320,
+        "capacity": 2,
+        "amenities": ["Queen Bed", "Sitting Area", "Luxurious Bathroom", "Mini Bar"]
+      },
+      {
+        "id": 402,
+        "type": "Presidential Suite",
+        "price": 950,
+        "capacity": 4,
+        "amenities": ["Separate Living Room", "Dining Area", "Panoramic Views", "Butler Service"]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Cancun Beachfront All-Inclusive",
+    "description": "All-inclusive luxury resort on the white sand beaches of Cancun with multiple pools, restaurants, and activities.",
+    "destinationId": 5,
+    "location": "Hotel Zone, Cancun",
+    "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061",
+    "price": 380,
+    "rating": 4.5,
+    "features": ["All-Inclusive", "Multiple Pools", "Water Sports", "Nightclub", "Kids Club"],
+    "rooms": [
+      {
+        "id": 501,
+        "type": "Ocean View Room",
+        "price": 380,
+        "capacity": 2,
+        "amenities": ["King Bed", "Balcony", "Jacuzzi Tub", "Mini Bar"]
+      },
+      {
+        "id": 502,
+        "type": "Swim-Up Suite",
+        "price": 580,
+        "capacity": 4,
+        "amenities": ["Direct Pool Access", "Premium Liquor", "Living Area", "Private Check-in"]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sacred Valley Eco Lodge",
+    "description": "Sustainable luxury lodge in the Sacred Valley near Machu Picchu, offering authentic Peruvian experiences and stunning mountain views.",
+    "destinationId": 6,
+    "location": "Sacred Valley, Peru",
+    "image": "https://images.unsplash.com/photo-1602002418082-a4443e081dd1",
+    "price": 220,
+    "rating": 4.7,
+    "features": ["Organic Restaurant", "Yoga Studio", "Inca Trails Access", "Cultural Activities", "Eco-Friendly"],
+    "rooms": [
+      {
+        "id": 601,
+        "type": "Mountain View Room",
+        "price": 220,
+        "capacity": 2,
+        "amenities": ["Handcrafted Furniture", "Alpaca Blankets", "Private Terrace", "Organic Toiletries"]
+      },
+      {
+        "id": 602,
+        "type": "Andean Suite",
+        "price": 380,
+        "capacity": 3,
+        "amenities": ["Fireplace", "Living Area", "Panoramic Windows", "Rain Shower"]
+      }
+    ]
+  }
+]
